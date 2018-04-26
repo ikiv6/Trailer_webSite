@@ -11,6 +11,7 @@ Pre-requisites:
 Steps to run the application:
 
 git clone https://github.com/ikiv6/Trailer_webSite
+
 cd Trailer_webSite
 python fresh_tomatoes.py
 
