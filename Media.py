@@ -1,11 +1,23 @@
 import webbrowser
+
+
 # Define The Class To Store My Favorite Movies
 class Movie():
-    def __init__(self,Title,Poster,Trailer):
+    """ Movie Class Contains The Defined Data OF
+            The Movies That Will Be Stored With The
+            Following Attributes
+        ...
+        ...
 
+        Attributes:
+            title: The Name Of The Movie
+            Poster: The Movie Poster Image
+            Trailer: The Movie Trailer Video
+            ...
+    """
+    def __init__(self, Title, Poster, Trailer):
+        """ Inits Movie class with The Previous Mentioned Attributes
+        """
         self.title = Title
         self.poster_image_url = Poster
-        self.trailer_youtube_url =Trailer
-# Define A Function to Run The Movie Trailer 
-    def Show_Trailer(self):
-        webbrowser.open(self.Movie_Trailer)
+        self.trailer_youtube_url = Trailer
