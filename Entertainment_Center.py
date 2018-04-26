@@ -21,7 +21,7 @@ IT = Media.Movie("IT",
 The_Conjuring_2 = Media.Movie("The Conjuring 2",
                               "https://goo.gl/4MevCZ",
                               "https://www.youtube.com/watch?v=VFsmuRPClr4")
- #Array TO Store The Movies At Then Call It Using The fresh_tomatoes.py
+# Array TO Store The Movies At Then Call It Using The fresh_tomatoes.py
 movies = [Deadpool,
           Evile_Dead,
           What_Happened_To_Monday,
